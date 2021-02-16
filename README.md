@@ -9,7 +9,9 @@
 ```hcl
 module "ns_iam_annotation" {
   source = "github.com/ministryofjustice/cloud-platform-terraform-ns-iam-annotation?ref=version"
-  ns_annotation_roles = ["cloud-platform-ef86e877e3cb0f46"]
+  ns_annotation_roles = ["cloud-platform-ef86eXXXXXb0f46"]
+  # for list of roles see below 
+  # ns_annotation_roles = ["cloud-platform-shgjfsguwurtyiw","cloud-platform-shgjfsguwurtyiw"]
   namespace = var.namespace
 }
 
