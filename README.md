@@ -1,8 +1,5 @@
-# cloud-platform-terraform-_template_
+# cloud-platform-terraform-ns-annotation
 
-_note: Please remove all comments in italics and fill where required>_
-
-_Please change the urls in the release badge below_
 [![Releases](https://img.shields.io/github/release/ministryofjustice/cloud-platform-terraform-ns-iam-annotation/all.svg?style=flat-square)](https://github.com/ministryofjustice/cloud-platform-terraform-ns-iam-annotation/releases)
 
 
