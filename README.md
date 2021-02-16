@@ -1,17 +1,17 @@
 # cloud-platform-terraform-ns-annotation
 
-[![Releases](https://img.shields.io/github/release/ministryofjustice/cloud-platform-terraform-ns-iam-annotation/all.svg?style=flat-square)](https://github.com/ministryofjustice/cloud-platform-terraform-ns-iam-annotation/releases)
+[![Releases](https://img.shields.io/github/release/ministryofjustice/cloud-platform-terraform-ns-annotation/all.svg?style=flat-square)](https://github.com/ministryofjustice/cloud-platform-terraform-ns-annotation/releases)
 
 
 
 ## Usage
 
 ```hcl
-module "ns_iam_annotation" {
-  source = "github.com/ministryofjustice/cloud-platform-terraform-ns-iam-annotation?ref=version"
+module "ns_annotation" {
+  source = "github.com/ministryofjustice/cloud-platform-terraform-ns-annotation?ref=version"
   ns_annotation_roles = ["cloud-platform-ef86eXXXXXb0f46"]
   # for list of roles see below 
-  # ns_annotation_roles = ["cloud-platform-shgjfsguwurtyiw","cloud-platform-shgjfsguwurtyiw"]
+  #   ns_annotation_roles = ["cloud-platform-shgjfsguwurtyiw","cloud-platform-shgjfsguwurtyiw"]
   namespace = var.namespace
 }
 
