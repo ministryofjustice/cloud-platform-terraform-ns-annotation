@@ -13,7 +13,7 @@ The output will be a annotation added to the given namespace
 ## Usage
 
 
-In your namespace's path in the [cloud-platform-environments](https://github.com/ministryofjustice/cloud-platform-environments/) repository and inside the directory `resources`, add the below code block. 
+In your namespace's path in the [cloud-platform-environments](https://github.com/ministryofjustice/cloud-platform-environments/) repository and inside the directory `resources`, add `nsannotation.tf` and change the role names to appropriate values. 
 
 ```hcl
 module "ns_annotation" {
@@ -23,6 +23,7 @@ module "ns_annotation" {
   #   ns_annotation_roles = ["cloud-platform-shgjfsguwurtyiw","cloud-platform-shgjfsguwurtyiw"]
   namespace = var.namespace
 }
+```
 
 Commit your changes to a branch and raise a pull request. Once approved, you can merge and the changes will be applied. Shortly after, you should be able to assume role using the IAM role from any of the pods in your namespace.
 
