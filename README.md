@@ -12,7 +12,7 @@ The output will be a annotation added to the given namespace
 
 ## Usage
 
-Read the example [README](example/README.md) file in this repository for Usage
+Read the example [README](examples/README.md) file in this repository for Usage
 ## Inputs
 
 | Name | Description | Type | Default | Required |
