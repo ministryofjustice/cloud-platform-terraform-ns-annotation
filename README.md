@@ -19,7 +19,6 @@ Read the example [README](examples/README.md) file in this repository for Usage
 |------|-------------|:----:|:-----:|:-----:|
 | ns_annotation_roles | List of roles to be added as values for annotation `iam.amazonaws.com/permitted=` | list | - | yes |
 | namespace | Namespace for which the annotation has to be set | string | - | yes |
-```
 
 ## Outputs
 
